@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/atmoskaja/static/css/main.96ca2cd8.css",
+    "main.js": "/atmoskaja/static/js/main.184211ac.js",
+    "static/js/787.c41db721.chunk.js": "/atmoskaja/static/js/787.c41db721.chunk.js",
+    "index.html": "/atmoskaja/index.html",
+    "main.96ca2cd8.css.map": "/atmoskaja/static/css/main.96ca2cd8.css.map",
+    "main.184211ac.js.map": "/atmoskaja/static/js/main.184211ac.js.map",
+    "787.c41db721.chunk.js.map": "/atmoskaja/static/js/787.c41db721.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96ca2cd8.css",
+    "static/js/main.184211ac.js"
+  ]
+}
