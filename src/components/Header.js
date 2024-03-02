@@ -8,7 +8,7 @@ const Header = () => {
     <div className="header">
       <Link to="/">
         <img
-          src="/AtmosKajaLogoHome.png"
+          src="../../public/AtmosKajaLogoHome.png"
           className="logo"
           alt="AtmosKaja Logo"
           style={{ width: '400px', height: 'auto' }}
