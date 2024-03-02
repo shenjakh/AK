@@ -1,0 +1,32 @@
+.current-card-container {
+  width: 40%;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.current-data {
+  display: flex;
+  flex-direction: column;
+}
+
+.current-data h2 {
+  margin-bottom: 10px;
+}
+
+.data-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.data-point {
+  width: 48%;
+  margin-bottom: 10px;
+}
+
+
+.current-data-and-street-view {
+  display: flex;
+  justify-content: space-between;
+}

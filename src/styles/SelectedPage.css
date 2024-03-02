@@ -1,0 +1,19 @@
+
+
+.Current {
+    display: flex;
+    flex-direction: row;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 2rem;
+  }
+  
+  .CurrentCard {
+    box-sizing: border-box;
+    max-height: 400px;
+  }
+  
+  .SelectedStreetView {
+    max-height: 400px
+  }
+  

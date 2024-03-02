@@ -1,0 +1,72 @@
+
+
+body {
+  font-family: 'Jost'
+}
+
+.table-container {
+  height: 60vh;
+  overflow-y: auto;
+  margin: 0% 1%;
+}
+
+.full-width-table {
+  width: 99%;
+  margin: 0 auto; 
+  border-collapse: collapse;
+  table-layout: fixed; 
+}
+
+.full-width-table th,
+.full-width-table td {
+  padding: 2%;
+  text-align: center;
+  line-height: 2;
+}
+
+.full-width-table th {
+  position: sticky;
+  top: 0;
+  background-color: #fff ;
+  z-index: 1;
+}
+
+/* Row hover effect */
+.full-width-table tbody tr:hover {
+  background-color: #E6E7E8;
+  cursor: pointer;
+}
+
+
+.full-width-table th:first-child,
+.full-width-table td:first-child {
+  width: 40%;
+  text-align: left;
+}
+
+
+.full-width-table th:not(:first-child),
+.full-width-table td:not(:first-child) {
+  width: 15%;
+  text-align: center; 
+}
+
+
+@media (min-width: 2560px) and (max-width: 3839px) {
+  .table-container {
+    margin: 0 10%;
+  }
+  .full-width-table {
+    width: 80%;
+  }
+}
+
+
+@media (min-width: 3840px) {
+  .table-container {
+    margin: 0 10%;
+  }
+  .full-width-table {
+    width: 80%;
+  }
+}
