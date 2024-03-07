@@ -65,6 +65,7 @@ const StreetView = () => {
           closeModal={(e) => closeModal(e)}
         />
       )}
+      <button onClick={() => window.location.hash = '/allCams'} className="streetViewButton">Ava kõike</button>
     </div>
   );
 };
