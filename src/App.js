@@ -10,7 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/selected" element={<SelectedCity />} />
-        <Route path = '/AllCams' element={<Cams />} />
+        <Route path = '/allCams' element={<Cams />} />
       </Routes>
     </BrowserRouter>
   );
