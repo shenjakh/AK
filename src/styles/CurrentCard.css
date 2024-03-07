@@ -30,3 +30,18 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media (max-width: 1920px) {
+  .current-card-container {
+    width: 60%;
+  }}
+
+  @media (max-width: 1200px) {
+    .current-card-container {
+      width: 80%;
+    }}
+
+    @media (max-width: 800px) {
+      .current-card-container {
+        width: 96%;
+      }}

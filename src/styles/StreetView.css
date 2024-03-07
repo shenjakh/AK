@@ -56,3 +56,8 @@
   border-color: #E6E7E8;
   box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
 }
+
+@media (max-width: 1200px) {
+  .street-view-container {
+    width: 96%;
+  }}

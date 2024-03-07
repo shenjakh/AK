@@ -9,7 +9,7 @@
 }
 
 .logo {
-  width: 440px;
+  width: 400px;
   height: auto;
   margin: 2rem;
 }
@@ -34,5 +34,21 @@
   .search {
     margin-right: 0; 
     margin-top: 1rem; 
+  }
+}
+
+@media (max-width: 420px) {
+  .logo {
+    width: 300px;
+  }
+
+  .search {
+    margin-right: 0;
+    margin-top: 1rem; 
+  }
+  .react-autosuggest__container {
+    width: 250px !important;
+    display: flex;
+    align-items: center;
   }
 }

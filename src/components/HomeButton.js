@@ -4,7 +4,7 @@ import '../styles/HomeButton.css'
 
 const HomeButton = () => {
   return (
-    <button onClick={() => window.location.href = '/'} className="homeButton">
+    <button onClick={() => window.location.href = '/AK'} className="homeButton">
       Esilehele
     </button>
   );

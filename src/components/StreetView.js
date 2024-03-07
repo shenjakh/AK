@@ -66,7 +66,7 @@ const StreetView = () => {
         />
       )}
 
-      <button onClick= {() => window.location.href = '/AllCams'} className="streetViewButton">Ava kõike</button>
+      <button onClick= {() => window.location.href = '/AK/AllCams'} className="streetViewButton">Ava kõike</button>
     </div>
   );
 };

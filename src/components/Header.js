@@ -12,7 +12,6 @@ const Header = () => {
           src={AtmosKajaLogo}
           className="logo"
           alt="AtmosKaja Logo"
-          style={{ width: '400px', height: 'auto' }}
         />
       </Link>
       <SearchBar className="search" />

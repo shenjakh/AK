@@ -21,7 +21,6 @@ const SelectedCity = () => {
       <Header />
       <div className='Current'>
       <CurrentCard locations={defaultData} selectedLocationName={selectedLocationName}/>
-      <SelectedStreetView />
       </div>
       <SelectedCityList />
       <HomeButton />

@@ -26,10 +26,6 @@ const Footer = () => {
       </div>
       
       <div className="footer-section footer-section-right">
-        <h4>Kontakt</h4>
-        <p><a href='https://www.linkedin.com/in/evgeniy-khiznyak-9a61a6263/' className='Links'>LinkedIn</a> ja <a href='https://github.com/shenjakh' className='Links'>Github</a></p>
-        <p><a href='' className=''></a></p>
-        <p className='BottomRight'>evgenkhiznyak@gmail.com</p>
       </div>
     </footer>
   );
