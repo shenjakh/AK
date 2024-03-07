@@ -17,7 +17,6 @@ const StreetView = () => {
   const [shuffledData, setShuffledData] = useState([]);
 
   useEffect(() => {
-    // Shuffle the data once when the component mounts
     setShuffledData(streetViewData.sort(() => Math.random() - 0.5));
   }, []);
 
