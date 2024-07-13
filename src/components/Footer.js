@@ -19,14 +19,6 @@ const Footer = () => {
         <p>ATMOSKAJA © 2024</p>
         </div>
       </div>
-      
-      <div className="footer-section footer-section-middle">
-
-
-      </div>
-      
-      <div className="footer-section footer-section-right">
-      </div>
     </footer>
   );
 };
